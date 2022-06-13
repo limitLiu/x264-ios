@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
 
   s.ios.source_files        = "src/ios/stable/include/*.h"
   s.ios.vendored_libraries  = "src/ios/stable/lib/#{libx264}.a"
-  s.ios.public_header_files = "src/ios/stable/include/#{libx264}/*.h"
+  s.ios.public_header_files = "src/ios/stable/include/*.h"
 
 end
