@@ -17,6 +17,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
+  s.ios.preserve_paths = "src/ios/stable/include"
+  s.ios.header_mappings_dir = "src/ios/stable/include"
+
   s.ios.source_files        = "src/ios/stable/include/*.h"
   s.ios.vendored_libraries  = "src/ios/stable/lib/#{libx264}.a"
   s.ios.public_header_files = "src/ios/stable/include/*.h"
