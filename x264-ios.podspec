@@ -1,11 +1,11 @@
 libx264 = 'libx264'
-NAME = "x264-ios"
-VERSION = "0.0.1"
+name = "x264-ios"
+version = "0.0.1"
 
 Pod::Spec.new do |s|
 
-  s.name         = "#{NAME}"
-  s.version      = "#{VERSION}"
+  s.name         = "#{name}"
+  s.version      = "#{version}"
   s.summary      = "A pod repo of stable x264 static libraries for ios."
   s.description  = "FFmpeg code base"
 
